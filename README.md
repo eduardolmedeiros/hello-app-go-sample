@@ -1,18 +1,18 @@
-# This is a demo app that shows information about pod, such as name, and IP, and has prometheus metrics enabled by default.
+## This is a demo app that shows information about pod, such as name, and IP, and has prometheus metrics enabled by default.
 
-# build
+### build
 
 ```
 docker build -t emedeiros/hello-app-go-sample:latest .
 ```
 
-# run
+### run
 
 ```
 docker run -p 8080:8080 emedeiros/hello-app-go-sample:latest
 ```
 
-# checking the app
+### checking the app
 ```
 curl http://localhost:8080
 curl http://localhost:8080/metrics
