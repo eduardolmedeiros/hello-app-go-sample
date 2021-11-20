@@ -29,7 +29,7 @@ func getPodInfo(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	appVersion := "v0.1"
+	appVersion := "v0.2"
 	fmt.Fprintf(w, "App version: %s", appVersion)
 
 }
