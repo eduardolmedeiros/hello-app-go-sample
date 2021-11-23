@@ -1,3 +1,4 @@
+nameOverride: "hello-app-go-sample-test"
 replicaCount: 3
 autoscaling:
   enabled: true
