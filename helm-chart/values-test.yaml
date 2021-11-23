@@ -10,7 +10,7 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: "hello-app-go-sample-test"
 
-appVersion: 0.2
+image.tag: 0.2
 
 replicaCount: 3
 autoscaling:
