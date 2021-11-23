@@ -10,7 +10,11 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: "hello-app-go-sample-test"
 
-image.tag: 0.2
+image:
+  repository: emedeiros/hello-app-go-sample
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "0.2"
 
 replicaCount: 3
 autoscaling:
