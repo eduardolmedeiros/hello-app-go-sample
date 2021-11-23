@@ -1,3 +1,4 @@
+namespace: hello-test
 replicaCount: 3
 autoscaling:
   enabled: true

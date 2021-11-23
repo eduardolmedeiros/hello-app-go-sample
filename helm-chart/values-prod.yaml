@@ -1,3 +1,4 @@
+namespace: hello-prod
 replicaCount: 5
 autoscaling:
   enabled: true
